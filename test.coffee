@@ -3,7 +3,7 @@ Client = require "patchboard-client"
 class Test
   
   constructor: (options) ->
-    @url = option.service.url
+    @url = options.service.url
     
   run: (callback) ->
     Client.discover @url, callback
