@@ -1,0 +1,9 @@
+{
+  "name": "orca-test",
+  "version": "0.0.1",
+  "main": "test.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dyoder/orca-test.git"
+  }
+}
