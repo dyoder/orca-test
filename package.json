@@ -5,5 +5,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/dyoder/orca-test.git"
+  },
+  "dependencies": {
+    "patchboard-client": "0.2.x"
   }
 }

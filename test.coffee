@@ -1,4 +1,13 @@
-run = ->
-  true
+Client = require "patchboard-client"
+
+class Test
   
-module.exports = run
+  constructor: (options) ->
+    @url = option.service.url
+    
+  run: (callback) ->
+    Client.discover @url, callback
+    
+  
+module.exports = Test
+  
