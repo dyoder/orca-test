@@ -1,6 +1,6 @@
 {
   "name": "orca-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "test.coffee",
   "repository": {
     "type": "git",
