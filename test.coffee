@@ -9,7 +9,7 @@ class Test
       
     
   run: (callback) ->
-    @client.log_event 
+    @client.resources.events.log_event 
       content:
         url: ""
         name: "test-event"
