@@ -1,3 +1,7 @@
+http = require "http"
+agent = http.globalAgent
+agent.maxSockets = 1000
+
 Client = require "patchboard-client"
 
 class Test
