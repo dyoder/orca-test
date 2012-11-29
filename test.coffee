@@ -9,13 +9,13 @@ class Test
       
     
   run: (callback) ->
-    @client.resources.events.log_event 
-      content:
-        url: ""
+    @client.resources.events.log_event
+      content: [{
         name: "test-event"
         origin: "tests"
         timestamp: Date.now()
-        data: {}
+        data: {foo: "bar"}
+      }]
       on:
         response: (response) =>
           if response.status is 202
